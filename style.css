@@ -15,7 +15,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10%;
-	height: 80px;
+	height: calc(40px + (100 - 40) * ((100vw - 500px) / (1920 - 500)));
 	width: 100%;
 	background-color: #0f0f0f;
 	position: fixed;
@@ -43,7 +43,10 @@ header {
 
 .nav_links li {
 	display: inline-block;
-	padding: 30px 20px;
+	padding-top: calc(20px + (35 - 20) * ((100vw - 500px) / (1920 - 500)));
+	padding-bottom: calc(20px + (35 - 20) * ((100vw - 500px) / (1920 - 500)));
+	padding-left: calc(5px + (20 - 5) * ((100vw - 500px) / (1920 - 500)));
+	padding-right: calc(5px + (20 - 5) * ((100vw - 500px) / (1920 - 500)));
 	position: relative;
 	transition: all .2s ease 0s;
 }
@@ -57,11 +60,11 @@ header {
 }
 
 .nav_links li:hover ul.s_links {
-	top:78px;
+	top:calc(58px + (90 - 58) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .search {
-	width: 300px;
+	width: calc(40px + (500 - 40) * ((100vw - 500px) / (1920 - 500)));
 	height: 30px;
 	font-size: calc(8px + (16 - 8) * ((100vw - 500px) / (1920 - 500)));
 	text-indent: 10px;
@@ -80,7 +83,10 @@ header {
 
 .s_links li {
 	display: block;
-	padding: 20px 18px;
+	padding-top: calc(5px + (30 - 5) * ((100vw - 500px) / (1920 - 500)));
+	padding-bottom: calc(8px + (30 - 8) * ((100vw - 500px) / (1920 - 500)));
+	padding-right: calc(10px + (15 - 10) * ((100vw - 500px) / (1920 - 500)));
+	padding-left: calc(10px + (15 - 10) * ((100vw - 500px) / (1920 - 500)));
 	border-top: 1px solid #333;
 }
 
@@ -177,7 +183,7 @@ article {
 }
 
 .new li a:hover {
-	color: #fff;
+	color: black;
 }
 
 .new img {
