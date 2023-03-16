@@ -106,7 +106,7 @@ header {
 	color: #cf625b;
 }
 
-/* ------------------------Article------------------------ */
+/* ------------------------Article(index)------------------------ */
 
 article {
 	height:calc(650px + (2000 - 650) * ((100vw - 500px) / (1920 - 500)));
@@ -228,6 +228,77 @@ h3 {
 
 h3, p, ul {
 	color: white;
+}
+
+/* ------------------------Article(cycles)------------------------ */
+
+.cycles_img {
+	width: calc(110px + (430 - 110) * ((100vw - 500px) / (1920 - 500)));
+	height: calc(75px + (300 - 75) * ((100vw - 500px) / (1920 - 500)));
+	border-radius: calc(5px + (20 - 5) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.content_cycles{
+	margin-left: 10%;
+}
+
+.hcycles {
+	padding-top:calc(80px + (120 - 80) * ((100vw - 500px) / (1920 - 500)));
+	padding-bottom: 3%
+}
+
+.ul_cycles {
+	display: flex;
+	flex-direction: row;
+	padding: 2% 2%;
+	background-color: rgba(33,33,33,0.5);
+	border-radius: 10px;	
+	margin-right: 10%;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.cycle_name {
+	font-size: calc(10px + (40 - 10) * ((100vw - 500px) / (1920 - 500)));
+	padding: 3% 0px;
+}
+
+.cycle_name:hover {
+	color: black;
+}
+
+.cycle_author {
+	padding-bottom: 3%;	
+	font-size: calc(5px + (24 - 5) * ((100vw - 500px) / (1920 - 500)));
+	color: #9C9D68;
+}
+
+.cycle_info {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+	font-size: calc(5px + (24 - 5) * ((100vw - 500px) / (1920 - 500)));
+	color: #969696;
+}
+
+.ul_cycles li {
+	border-radius: calc(3px + (10 - 3) * ((100vw - 500px) / (1920 - 500)));
+	width: 100%;
+	display: inline-block;
+	padding: 2% 2%;
+
+	position: relative;
+	transition: all .2s ease 0s;
+}
+
+.ul_cycles li a {
+	text-decoration: none;
+	color: #D9D9D9;
+}
+
+.ul_cycles li:hover {
+	background-color: #5b5c3c;
 }
 
 /* ------------------------Footer------------------------ */
