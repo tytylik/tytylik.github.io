@@ -109,7 +109,7 @@ header {
 /* ------------------------Article(index)------------------------ */
 
 article {
-	height:calc(650px + (2000 - 650) * ((100vw - 500px) / (1920 - 500)));
+	height:calc(650px + (2450 - 650) * ((100vw - 500px) / (1920 - 500)));
 	background-color: #121212
 	
 }
@@ -244,7 +244,6 @@ h3, p, ul {
 
 .hcycles {
 	padding-top:calc(80px + (120 - 80) * ((100vw - 500px) / (1920 - 500)));
-	padding-bottom: 3%
 }
 
 .ul_cycles {
@@ -254,6 +253,7 @@ h3, p, ul {
 	background-color: rgba(33,33,33,0.5);
 	border-radius: 10px;	
 	margin-right: 10%;
+	margin-top: 2%;
 	list-style: none;
 	justify-content: space-between;
 }
