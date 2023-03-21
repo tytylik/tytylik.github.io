@@ -287,7 +287,6 @@ h3, p, ul {
 	width: 100%;
 	display: inline-block;
 	padding: 2% 2%;
-
 	position: relative;
 	transition: all .2s ease 0s;
 }
@@ -298,6 +297,48 @@ h3, p, ul {
 }
 
 .ul_cycles li:hover {
+	background-color: #5b5c3c;
+}
+
+/* ------------------------Article(categories)------------------------ */
+
+.categories {
+	padding-left: 10%;
+	padding-top: 50px;
+}
+
+.categories h3 {
+	padding-bottom: 2%;
+}
+
+.spisok_categor {
+	padding: 2%;
+	list-style: none;
+	background-color: rgba(33,33,33,0.5);
+	border-radius: 10px;	
+	margin-right: 10%;
+}
+
+.spisok_categor li {
+	border-radius: calc(3px + (10 - 3) * ((100vw - 500px) / (1920 - 500)));
+	width: 100%;
+	display: inline-block;
+	padding: 2% 5%;
+	position: relative;
+	transition: all .2s ease 0s;
+}
+
+.spisok_categor li a {
+	text-decoration: none;
+	color: #9c9c9c;
+}
+
+.spisok_categor li {
+	padding-top: 1%;
+	font-size: calc(8px + (24 - 8) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.spisok_categor li:hover {
 	background-color: #5b5c3c;
 }
 
