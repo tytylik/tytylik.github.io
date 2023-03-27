@@ -323,9 +323,10 @@ h3, p, ul {
 	border-radius: calc(3px + (10 - 3) * ((100vw - 500px) / (1920 - 500)));
 	width: 100%;
 	display: inline-block;
-	padding: 2% 5%;
+	padding: 1% 2%;
 	position: relative;
 	transition: all .2s ease 0s;
+	width: 100%;
 }
 
 .spisok_categor li a {
@@ -341,6 +342,49 @@ h3, p, ul {
 .spisok_categor li:hover {
 	background-color: #5b5c3c;
 }
+
+/* ------------------------Article(login)------------------------ */
+
+.log_in_name  {
+	padding-top:calc(50px + (80 - 50) * ((100vw - 500px) / (1920 - 500)));
+	padding-left: 10%;
+	padding-bottom: 3%;
+}
+
+.log {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.log_in {
+	background-color: rgba(33,33,33,0.5);
+	margin: 0px 10%;
+	padding-left: 2%;
+	padding-right: 10%;
+	padding-bottom: 2%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 20%
+}
+
+.log_in p {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: calc(8px + (24 - 8) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.log_in input {
+	width: calc(200px + (500 - 200) * ((100vw - 500px) / (1920 - 500)));
+	height: calc(20px + (50 - 20) * ((100vw - 500px) / (1920 - 500)));
+	border-radius: 10px;
+	text-indent: 10px;
+	outline: none;
+}
+
+
 
 /* ------------------------Footer------------------------ */
 
