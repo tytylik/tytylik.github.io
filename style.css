@@ -346,15 +346,16 @@ h3, p, ul {
 /* ------------------------Article(login)------------------------ */
 
 .log_in_name  {
-	padding-top:calc(50px + (80 - 50) * ((100vw - 500px) / (1920 - 500)));
+	padding-top:calc(60px + (50 - 60) * ((100vw - 500px) / (1920 - 500)));
 	padding-left: 10%;
-	padding-bottom: 3%;
+	padding-bottom: 2%;
 }
 
 .log {
 	display: flex;
 	flex-direction: column;
-	
+	justify-content: space-between;
+	height: 60%
 }
 
 .log_in {
@@ -367,7 +368,7 @@ h3, p, ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 20%
+	height: 50%
 }
 
 .log_in p {
@@ -384,6 +385,85 @@ h3, p, ul {
 	outline: none;
 }
 
+.log_in_line {
+	margin-top: 2.5%;
+	background-color: grey;
+	width: 0.5%;	
+	height: 100%;
+	border-radius: calc(3px + (10 - 3) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.log_in_with ul {
+	list-style: none;
+	
+}
+
+.log_in_with ul li {
+	display: flex;
+	padding-left: 25%;
+	align-items: center;
+	height: 10%;
+	margin-bottom: 10%;
+	border-radius: calc(7px + (20 - 7) * ((100vw - 500px) / (1920 - 500)));
+	width: 125%;
+	font-size: calc(8px + (20 - 8) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.google {
+	background-color: #a83232;
+}
+
+.google:hover {
+	background-color: #421313;
+}
+
+.facebook {
+	background-color: #324ca8;
+}
+
+.facebook:hover {
+	background-color: #20316b;
+}
+
+.twitter {
+	background-color: #327da8;
+}
+
+.twitter:hover {
+	background-color: #1d4861
+}
+
+.vk {
+	background-color: #3248a8;
+}
+
+.vk:hover {
+	background-color: #1c295e;
+}
+
+.log_in_with ul li a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.log_with {
+	margin-bottom: 15%
+}
+
+.log_in_with ul a {
+	text-decoration: none;
+	color: #d9d9d9
+}
+
+.log_in_with ul a p {
+	margin-left: 10%;
+}
+
+.log_in_with ul li a img {
+	width: calc(12px + (40 - 12) * ((100vw - 500px) / (1920 - 500)));
+	padding-right: 10%;
+}
 
 
 /* ------------------------Footer------------------------ */

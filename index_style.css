@@ -1,0 +1,131 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Comfortaa', cursive;
+}
+
+article {
+	height:calc(650px + (2450 - 650) * ((100vw - 500px) / (1920 - 500)));
+	background-color: #121212
+	
+}
+
+h4 {
+	font-size: calc(5px + (24 - 5) * ((100vw - 500px) / (1920 - 500)));
+	margin-bottom: 5%;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+
+h3 {
+	font-size: calc(8px + (48 - 8) * ((100vw - 500px) / (1920 - 500)));
+	padding-top: 5%;
+}
+
+h3, p, ul {
+	color: white;
+}
+
+.first {
+	margin-left:20%;
+	margin-right:20%;
+	padding-top:100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.first img {
+	border-radius: calc(5px + (20 - 5) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.first_pic {
+	width: calc(200px + (750 - 200) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.second_pic {
+	width: calc(100px + (350 - 100) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.second {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between
+}
+
+.page {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.5), #121212), url(background6.jpg);
+	/*background: url(background.jpg);*/
+	background-size: cover;
+	background-position: center;
+}
+
+.new {
+	display: flex;
+	flex-direction: row;
+	padding: 2% 2%;
+	height: 100%;
+	background-color: rgba(33,33,33,0.5);
+	border-radius: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	list-style: none;
+	justify-content: space-between;
+}
+.new li {
+	border-radius: calc(3px + (10 - 3) * ((100vw - 500px) / (1920 - 500)));
+	width: calc(50px + (205 - 50) * ((100vw - 500px) / (1920 - 500)));
+	display: inline-block;
+	padding: 2% 2%;
+	margin-right: 1%;
+	position: relative;
+	transition: all .2s ease 0s;
+	
+}
+
+.new li:hover {
+	background-color: #5b5c3c;
+}
+
+.new li a {
+	text-decoration: none;
+	color: #D9D9D9;
+}
+
+.new li a:hover {
+	color: black;
+}
+
+.new img {
+	border-radius: calc(2px + (5 - 2) * ((100vw - 500px) / (1920 - 500)));
+	width: calc(35px + (150 - 35) * ((100vw - 500px) / (1920 - 500)));
+	margin-bottom: 5%;
+}
+
+.author {
+	margin-bottom: 5%;
+	font-size: calc(4px + (18 - 4) * ((100vw - 500px) / (1920 - 500)));
+	color: #9C9D68;
+}
+
+.price {
+	margin-bottom: 5%;
+	font-size: calc(5px + (30 - 5) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.hnew {
+	margin-left: 10%;
+	padding-bottom: 3%;
+}
+
+.content {
+	
+}

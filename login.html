@@ -1,10 +1,13 @@
 <html>
 	<head>
-		<title> </title>
+		<title>Вход</title>
 		<meta charset = "utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel = "stylesheet" href = "style.css">
+		<link rel = "icon" href = "open-book.png" type = "image/png">
+		<link rel = "stylesheet" href = "hover_style.css">
+		<link rel = "stylesheet" href = "login_style.css">
+		<link rel = "stylesheet" href = "footer_style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
@@ -18,11 +21,11 @@
 			
 			<ul class = "nav_links">
 				<li><a href = "#" class = "n_l">Акции</a></li>
-				<li><a href = "#" class = "n_l">Категории</a></li>
+				<li><a href = "categories.html" class = "n_l">Категории</a></li>
 				<li><a href = "#" class = "n_l">Подборки</a></li>
-				<li><a href = "#" class = "n_l">Циклы</a></li>
+				<li><a href = "cycles.html" class = "n_l">Циклы</a></li>
 				<li>
-					<a href = "#" class = "n_l">Профиль</a>
+					<a href = "login.html" class = "n_l">Профиль</a>
 					<ul class = "s_links">
 						<li><a href = "#" class = "but">Аккаунт</a></li>
 						<li><a href = "#" class = "but">Закладки</a></li>
@@ -38,6 +41,7 @@
 		
 		<article>
 			
+			<div class = "page">
 			<div class = "log_in_name">
 				<h3>
 					Вход
@@ -45,23 +49,42 @@
 			</div>
 			<div class = "log_in">
 				<div class = "log">
-					<p class = "log_in_info">
-						Номер телефона:
-					</p>
-					<input type = "telephone" placeholder = "Введите номер телефона">
-					<p class = "log_in_info">
-						Пароль:
-					</p>
-					<input type = "text" placeholder = "Введите пароль">
+					<div>
+						<p class = "log_in_info">
+							Номер телефона:
+						</p>
+						<input type = "telephone" placeholder = "Введите номер телефона">
+					</div>
+					<div>
+						<p class = "log_in_info">
+							Пароль:
+						</p>
+						<input type = "text" placeholder = "Введите пароль">
+					</div>
+				</div>
+				<div class = "log_in_line">
+					
 				</div>
 				<p>
 					или
 				</p>
+				<div class = "log_in_line">
+					
+				</div>
 				<div>
-					<p>
+					<p class = "log_with">
 						Войти с помощью:
 					</p>
+					<div class = "log_in_with">
+						<ul>
+							<li class = "google"><a href = "#"><img src = "google.png"><p>Google</p></a></li>
+							<li class = "facebook"><a href = "#"><img src = "facebook.png"><p>Facebook</p></a></li>
+							<li class = "twitter"><a href = "#"><img src = "twitter.png"><p>Twitter</p></a></li>
+							<li class = "vk"><a href = "#"><img src = "vk.png"><p>VK</p></a></li>
+						</ul>
+					</div>
 				</div>
+			</div>
 			</div>
 			
 		</article>
