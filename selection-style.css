@@ -137,6 +137,11 @@ h3, p, ul {
 	color: white;
 }
 
+footer {
+	padding: 30px 10%;
+	background-color: #121212;
+}
+
 .img {
 	margin-bottom: 15px;
 }
