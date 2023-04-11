@@ -78,6 +78,25 @@ h3, p, ul {
 	font-size: calc(8px + (24 - 8) * ((100vw - 500px) / (1920 - 500)));
 }
 
+.dropdown-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: 0.2s ease max-height;
+}
+
+.dropdown-content ul {
+	margin: 1% 0;
+}
+
+.dropdown-content ul li:hover {
+	background-color: #121212;
+}
+
+.dropdown-content--show {
+	max-height: 300px;
+}
+
+
 .spisok_categor li:hover {
 	background-color: #5b5c3c;
 }

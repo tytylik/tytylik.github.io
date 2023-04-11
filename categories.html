@@ -46,7 +46,16 @@
 						Категории
 					</h3>
 					<ul class = "spisok_categor">
-						<li><a href = "#">Художественная литература</a></li>
+						<li>
+							<a class = "open-button" href = "#">Художественная литература</a>
+							<div class = "dropdown-content">
+								<ul>
+									<li><a href = "#">Фэнтези</a></li>
+									<li><a href = "#">Детектив</a></li>
+									<li><a href = "#">Научная фантастика</a></li>
+								</ul>
+							</div>
+						</li>
 						<li><a href = "#">Деловая литература</a></li>
 						<li><a href = "#">Образование</a></li>
 						<li><a href = "#">Наука и техника</a></li>
@@ -103,6 +112,16 @@
 				@ 2023, Book Store
 			</div>
 		</footer>
+		
+		<script>
+			const openMenu = document.querySelector('.open-button');
+
+			openMenu.addEventListener('click', (e) => {
+				e.preventDefault();
+			openMenu.nextElementSibling.classList.toggle('dropdown-content--show')
+			});
+			
+		</script>
 		
 	</body>
 </html>
